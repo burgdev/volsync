@@ -1,0 +1,13 @@
+# see https://editorconfig.org/
+root = true
+
+# Settings for all files
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Settings for Bash and Shell Scripts
+[*.{sh,bash}]
+indent_style = space
+indent_size = 4
+tab_width = 4
